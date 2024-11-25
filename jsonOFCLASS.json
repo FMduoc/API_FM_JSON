@@ -1,0 +1,149 @@
+{
+  "clases": [
+    {
+      "id": "1",
+      "nombre": "PROGRAMACIÓN DE APLICACIONES MÓVILES",
+      "seccion": "004D",
+      "docenteId": "123",
+      "horarios": "Lunes 14:31-15:50 / Jueves 12:11-14:20",
+      "estudiantesInscritos": [
+        "201",
+        "202",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "CALIDAD DE SOFTWARE",
+      "seccion": "004D",
+      "docenteId": "124",
+      "horarios": "Lunes 16:01-17:20 / Jueves 14:31-15:50",
+      "estudiantesInscritos": [
+        "203",
+        "204",
+        "205",
+        "1"
+      ]
+    },
+    {
+      "id": "3",
+      "nombre": "ESTADISTICA DESCRIPTIVA",
+      "seccion": "004D",
+      "docenteId": "125",
+      "horarios": "Martes 13:01-14:20 / Miércoles 13:01-14:20",
+      "estudiantesInscritos": [
+        "203",
+        "204",
+        "205",
+        "1"
+      ]
+    },
+    {
+      "id": "4",
+      "nombre": "ARQUITECTURA",
+      "seccion": "005D",
+      "docenteId": "126",
+      "horarios": "Martes 14:31-15:50 / Jueves 14:31-16:40",
+      "estudiantesInscritos": [
+        "203",
+        "204",
+        "205"
+      ]
+    },
+    {
+      "id": "0ced",
+      "nombre": "Idiot Class",
+      "seccion": "004D",
+      "docenteId": "5476",
+      "horarios": "Domingo 06:00 - 19:50",
+      "estudiantesInscritos": [
+        "1"
+      ]
+    },
+    {
+      "id": "8dec",
+      "nombre": "ÉTICA PARA EL TRABAJO",
+      "seccion": "004D",
+      "docenteId": "142",
+      "horarios": "Viernes 11:31 - 12:50",
+      "estudiantesInscritos": [
+        "1"
+      ]
+    },
+    {
+      "id": "053d",
+      "nombre": "CLASE DE TEST",
+      "seccion": "012V",
+      "docenteId": "5476",
+      "horarios": "Martes 20:00 - 22:40",
+      "estudiantesInscritos": []
+    }
+  ],
+  "asistencia": [
+    {
+      "id": "1",
+      "idClase": "1",
+      "fecha": "25-11-2024",
+      "estudiantes": [
+        {
+          "idEstudiante": "1",
+          "asistio": true
+        },
+        {
+          "idEstudiante": "2",
+          "asistio": false
+        }
+      ]
+    },
+    {
+      "id": "f71a",
+      "idClase": null,
+      "fecha": "2024-11-25T23:46:00",
+      "estudiantes": []
+    },
+    {
+      "id": "576b",
+      "idClase": null,
+      "fecha": "2024-11-25T23:46:00",
+      "estudiantes": []
+    },
+    {
+      "id": "06bd",
+      "idClase": null,
+      "fecha": "2024-11-25T23:46:00",
+      "estudiantes": []
+    },
+    {
+      "id": "ff73",
+      "idClase": "0ced",
+      "fecha": "2024-11-21T23:54:00",
+      "estudiantes": []
+    },
+    {
+      "id": "b432",
+      "idClase": "0ced",
+      "fecha": "2024-11-20T23:59:00",
+      "estudiantes": [
+        {
+          "idEstudiante": "1",
+          "asistio": false
+        }
+      ]
+    },
+    {
+      "id": "ca4a",
+      "idClase": "053d",
+      "fecha": "2024-11-27T17:59:00",
+      "estudiantes": []
+    }
+  ],
+  "justificativos": [
+    {
+      "id": "1",
+      "idEstudiante": "1",
+      "idClase": "1",
+      "comentario": "Comentario"
+    }
+  ]
+}
